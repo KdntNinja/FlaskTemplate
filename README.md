@@ -11,7 +11,7 @@ This is a beginner-friendly starter template for building web applications using
 
 ### 1. Clone the repository
 ```
-git clone <your-repo-url>
+git clone https://github.com/KdntNinja/FlaskTemplate
 cd FlaskTemplate
 ```
 
