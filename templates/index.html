@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}Home - Flask Bootstrap App{% endblock %}
+
+{% block content %}
+<h1 class="display-4">Welcome to your Flask + Bootstrap project!</h1>
+<p class="lead">This is a starter template using Flask and Bootstrap 5.</p>
+<div class="mb-3">
+    <button id="counterBtn" class="btn btn-primary">Clicked <span id="counter">0</span> times</button>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    let count = 0;
+    document.getElementById('counterBtn').addEventListener('click', function() {
+        count++;
+        document.getElementById('counter').textContent = count;
+    });
+</script>
+{% endblock %}
