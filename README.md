@@ -50,10 +50,12 @@ FlaskTemplate/
 - Add your own routes and templates in `app.py` and the `templates/` folder.
 - Place custom CSS/JS in the `static/` folder and link them in your templates.
 
+## Documentation
+- For links to official documentation for all libraries and tools used in this project, see [`docs.md`](docs.md).
+
 ## Learn More
 - [Flask Documentation](https://flask.palletsprojects.com/)
 - [Bootstrap Documentation](https://getbootstrap.com/)
 
 ---
 Happy coding!
-p 
